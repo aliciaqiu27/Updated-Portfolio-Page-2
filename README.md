@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Updated-Portfolio
 
 In this project, my responsive portfolio was updated to display the "ADOME" project #1, alongside the Weather API, Third-Party API Work-Day Scheduler, and Password Generator projects. In addition, the "Contact Me" page allow you to access my LinkedIn, Github, contact email, and PDF (resume) by clicking on the icons. 
@@ -27,3 +28,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+=======
+# Updated-Portfolio-Page-2
+>>>>>>> efb5c5fc60ce637ad1ccd6601fca59d248fafbce
