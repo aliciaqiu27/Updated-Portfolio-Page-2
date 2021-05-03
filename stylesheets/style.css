@@ -1,0 +1,296 @@
+html {
+  font-family: helvetica, serif;
+  color: white;
+}
+
+html,
+body {
+  background: url(Background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.wrapper {
+  width: 100%;
+  height: 1 5vh;
+  text-align: center;
+}
+h4 {
+  font-weight: 100;
+  font-size: 28px;
+  margin: 0;
+  padding: 8em 0 1em 0;
+}
+.btn_one {
+  text-decoration: none;
+  color: white;
+  font-weight: 100;
+  border: 1px #fbbc05 solid;
+  padding: 1em 3em;
+  border-radius: 100px;
+}
+
+.nav div {
+  height: 4px;
+  background-color: white;
+  margin: 5px 0;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+.nav {
+  width: 400px;
+  display: block;
+  padding-top: 2%;
+}
+.one {
+  width: 30px;
+}
+.two {
+  width: 20px;
+}
+.three {
+  width: 25px;
+}
+
+.nav:hover div {
+  width: 30px;
+}
+
+.brand {
+  width: 120px;
+  vertical-align: middle;
+}
+
+.logo,
+.header {
+  display: inline-block;
+}
+
+.nav-item,
+.input-group {
+  display: inline-block;
+  color: white;
+  font-family: "Avantgarde", sans-serif;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+#footerContainer {
+  max-width: 100%;
+  text-align: center;
+  color: white;
+  display: inline-block;
+}
+
+.footerIcons,
+.footerText {
+  display: inline-block;
+  text-align: center;
+  padding: 2% 2% 2% 2%;
+}
+/* 
+.footerIcons {
+  transform: rotate(-90deg);
+  position: absolute;
+  left: 350px;
+  bottom: 400px;
+  cursor: pointer;
+} */
+
+hr.rounded {
+  border-top: 0.5px solid black;
+  border-radius: 0.5px;
+  margin: 3ch 3ch 3ch 3ch;
+}
+
+.carouselContainer, .container, .mainContainer, .signupForm, .login-form, .buyACarContainer, .questionsContainer {
+  margin: auto;
+  text-align: center;
+}
+
+
+input[type="text"],
+select.form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  color: white;
+}
+
+input[type="text"]:focus,
+select.form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: white;
+}
+
+input[type="number"],
+select.form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  color: white;
+}
+
+input[type="number"]:focus,
+select.form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: white;
+}
+
+.form-control,
+label {
+  font-size: 25px;
+}
+
+.form-group {
+  padding: 2%;
+}
+
+.form-inline {
+  margin-right: auto;
+}
+
+.submitBtn,
+.signupBtn {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.btn {
+  font-size: 25px;
+  text-align: center;
+  width: 200px;
+  height: 55px;
+  background: linear-gradient(45deg, black, gray);
+  background: transparent;
+  color: aliceblue;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: white;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+
+.login,
+.signup {
+  font-size: 30px;
+  color: aliceblue;
+  text-align: left;
+}
+
+#loginHeader {
+  color: white;
+  font-family: sans-serif;
+  font-size: 45px;
+}
+
+#loginFooter,
+#text {
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+#textHeader, #buyACarHeader {
+  font-size: 45px;
+  color: black;
+  font-family: cursive;
+  text-align: center;
+}
+
+#text {
+  text-align: left;
+}
+
+.area {
+  background: linear-gradient(45deg, white, gray);
+  color: aliceblue;
+  border-radius: 2%;
+  padding: 5px 5px;
+}
+
+.questionsContainer{
+  color: white;
+  font-family: sans-serif;
+  font-size: 28px;
+  padding: 2% 2%;
+}
+
+.navbar{
+  max-width: 1139px;
+  margin:auto;
+}
+
+.navbar-brand {
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    color: rgb(0, 65, 51);
+}
+
+
+@media screen and (max-width: 991px) {
+  .nav-link {
+    display: none;
+  }
+  .dropdown {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .dropdown {
+    display: none;
+  }
+  .nav-link {
+    float: right;
+    display: block;
+  }
+}
+
+.header {
+    font-size: 30px;
+}
+
+.jumbotron {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.portfolioHeaders {
+  font-family: 'Calistoga', cursive;
+  color: white;
+}
+
+.portfolioImages{
+    width: 460px;
+    height: 400px;
+}
+
+.portfolioImages,.portfolioImagesLarge {
+    padding: 5px 1px;
+    display: inline-block;
+}
+
+.portfolioImagesLarge {
+  width: 600px;
+  height: 400px;
+}
+
+
+.hwkExample {
+    padding: 10px 10px;
+    max-width: 100%;
+}
